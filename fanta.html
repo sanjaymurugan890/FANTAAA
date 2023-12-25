@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FANTA</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="fanta.css">
+</head>
+<body>
+ <div class="main">
+  <nav>
+    <a href="#">Logo</a>
+<div class="cntr-nav">
+      <nav>
+        .
+        <ul id="Menu-items">
+         <li><a Href="#">Home</a></li>
+         <li><a Href="#">Products</a></li>
+         <li><a Href="#">About</a></li>
+         <li><a Href="#">Contact</a></li>
+      </ul>
+</div>
+    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+  </nav>
+  <div class="one">
+    <h1 >FANTA</h1>
+    <img id="orange2" src="images/orange2.png" alt="">
+    <img id="fanta" src="images/fanta.png" alt="">
+    <img id="orange" src="images/orange.png" alt="">
+    <img id="leaf" src="images/leaf.png" alt="">
+    <img id="leaf2" src="images/leaf2.png" alt="">
+    <img id="leaf3" src="images/coconoutleaf.png" alt="">
+  </div>
+  <!-- end one -->
+  <div class="two">
+   <div class="lft-two">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#e04428" d="M42.6,-70.3C57,-65.5,71.7,-57.7,76.5,-45.5C81.3,-33.3,76.2,-16.6,73.7,-1.5C71.1,13.7,71.2,27.4,65.9,38.7C60.5,49.9,49.7,58.6,37.8,65.7C25.9,72.7,13,78.1,-0.2,78.5C-13.4,78.8,-26.7,74.1,-37.7,66.5C-48.7,59,-57.4,48.6,-66.7,37C-76,25.4,-86,12.7,-84.8,0.7C-83.6,-11.3,-71.1,-22.6,-61.9,-34.3C-52.6,-46,-46.6,-58.2,-36.9,-65.8C-27.1,-73.3,-13.6,-76.1,0.3,-76.6C14.1,-77,28.2,-75.1,42.6,-70.3Z" transform="translate(100 100)" />
+    </svg>
+   </div>
+   <div class="ryt-two">
+    <h1>Flavour Updated</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptas pariatur molestiae saepe? Ratione quis, aperiam a sequi corrupti minus tempora natus, magni rerum nemo corporis quod sapiente nesciunt quidem eligendi aliquid. Quisquam deserunt iste deleniti ipsum mollitia perferendis ad illo. Earum consequatur repudiandae doloremque nemo, voluptatibus aut, blanditiis inventore reiciendis illo reprehenderit, adipisci laborum optio corrupti ipsam repellendus iste quaerat provident. Harum adipisci, ratione modi, quis dolorem nisi placeat temporibus officiis ad natus autem molestiae voluptatem nihil. Provident officiis qui iure soluta possimus, veniam quam odit doloremque iusto labore, assumenda praesentium quos a voluptates ex exercitationem cumque, ducimus sapiente?</p>
+   </div>   
+ 
+
+  </div>
+    <!-- end two -->
+    <div class="three">
+      <div class="card">
+        <img class="lemon " src="images/lemon.webp" alt="">
+        <img id="pepsi" src="images/pepsi.png" alt="">
+        <h1>Pepsi</h1>
+        <button onclick="">BUY NOW</button>
+      </div>
+      <div class="card">
+        
+        <h1>Fanta</h1>
+        <button>BUY NOW</button>
+      </div>
+      <div class="card">
+        <img class="lemon" src="images/lemon.webp" alt="">
+        <img id="cococola" src="images/cocacola.png" alt="">
+        <h1>CocaCola</h1>
+        <button>BUY NOW</button>
+      </div>
+    </div>
+ </div>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <!-- <script src="fanta.js"></script> -->
+  <script>var Menuitems = document.getElementById("Menu-items");
+
+
+    Menuitems.style.maxHeight = "0px";
+    
+    function menutoggle(){
+        if(Menuitems.style.maxHeight == "0px")
+        {
+            Menuitems.style.maxHeight = "200px";
+        }
+    else
+        {
+            Menuitems.style.maxHeight= "0px";
+        }
+    }
+    </script>
+</body>
+</html>
